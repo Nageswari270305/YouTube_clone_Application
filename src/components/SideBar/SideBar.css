@@ -1,0 +1,356 @@
+.SideBar {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 300px;
+    flex-shrink: 0;
+    position: sticky;
+    top: 60px;
+    height: calc(100vh - 60px);
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+
+.SideBar:hover{    
+    scrollbar-width: thin;
+ }
+
+
+/* .SideBar > * {
+    flex-shrink: 0;
+} */
+.house{
+    width: 220px;
+    margin-left: 39px;
+    margin-top: 10px;
+    display: flex;
+    border-radius: 10px;
+    height: 70px;
+    border: none;
+    background: transparent;
+}
+
+.house:hover, .Clapperboard:hover, .you:hover, .youtube:hover, .Show-icon:hover, .history-icon:hover, .playlist-icon:hover, .watchlater-icon:hover, .thumbsup-icon:hover, .video-icon:hover, .download-icon:hover, .report:hover{
+     background-color: rgb(56, 55, 55);
+}
+ .Explore:hover{
+   background-color: rgb(56, 55, 55);
+ }
+
+.home-icon{
+ color: white;
+ height: 40px;
+ margin-left: 0px;
+}
+
+.Clapperboard{
+     width: 220px;
+      margin-left: 39px;
+      background: transparent;
+      border: none;
+      border-radius: 10px;
+      color:  white;
+      display: flex;
+      gap: 20px;
+       align-items: center;
+       height: 45px;
+}
+
+.Clapperboard-icon{
+    margin-left: 0px;
+}
+
+.Home {
+    border: none;
+    outline: none;
+    width: 50px;
+    margin-left: 20px;
+    height: 30px;
+    font-size: large;
+    background: transparent;
+}
+
+.Home::placeholder{
+    color: white;
+    align-items: center;
+    background: transparent;
+}
+
+.shorts{
+    color: white;
+    background: transparent;
+    border: none;
+    font-size: large;
+    margin-left: 0px;
+}
+
+.horizontal-line{
+    width: 90%;
+    border: none;
+    border-top: 1px solid gray;
+}
+
+.top{
+    color: white;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    height: 10px;
+}
+
+.you{
+    margin-left: 39px;
+    font-weight: bolder;
+    font-size: x-large;
+    background: transparent;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 220px;
+    text-align: left;
+    padding-left: 7px;
+    height: 45px;
+    margin-top: 20px;
+}
+
+
+
+.Symbol{
+    color: white;
+    font-size: 20px;
+}
+
+.history-icon{
+    margin-top: 20px;
+    margin-left: 39px;
+    color: white;
+    display: flex;
+    align-items:center ;
+    gap: 20px;
+    border: none;
+    border-radius: 10px;
+    background: transparent;
+    width: 220px;
+    padding-left: 7px;
+    height: 45px;
+    font-size: large;
+}
+
+
+.history, .playlist, .watchlater, .thumbsup, .video, .download{
+    font-size: large;
+}
+
+.playlist-icon, .watchlater-icon,.thumbsup-icon, .video-icon, .download-icon{
+    margin-top: 0px;
+    margin-left: 39px;
+    color: white;
+    display: flex;
+    align-items:center ;
+    gap: 20px;
+    border: none;
+    border-radius: 10px;
+    background: transparent;
+    width: 220px;
+    padding-left: 7px;
+    height: 45px;
+    font-size: large;
+
+}
+
+.section-3, .section-4, .section-5{
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-left: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.youtube{
+    color: white;
+    display: flex;
+    align-items: center;
+    background: transparent;
+    border: none;
+    border-radius: 10px;
+    gap: 20px;
+    width: 220px;
+    height: 45px;
+    /* margin-left: 20px; */
+}
+
+.youtube-icon{
+    color: red;
+    font-size: 30px;
+}
+
+.youtube-text{
+    font-size: large;
+}
+
+.section-4{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        border: none;
+        border-radius: 20px;
+        background: transparent;
+}
+
+.Explore{
+ border: none;
+  border-radius: 10px;
+  background: transparent;
+  color: white;
+  text-align: left;
+  font-size: large;
+  height: 45px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  width: 220px;
+}
+
+.Show-icon{
+    color: white;
+    background: transparent;
+    border: none;
+    border-radius: 10px;
+    font-size: large;
+    text-align: left;
+    margin-left: 0px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    height: 40px;
+    width: 220px;
+}
+
+.show{
+    display: flex;
+}
+
+.report{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: transparent;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: large;
+    width: 220px;
+    height: 45px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 1397px) {
+    .SideBar{
+        width: 70px;
+    }
+    
+    .house
+    {
+        width: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 21px;
+        margin-left: 0px;
+    }
+
+    .home-icon {
+        height: 22px;
+        width: 22px;
+        margin-left: 0px;
+    }
+
+    .Home {
+        font-size: small;
+        width: auto;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .Clapperboard{
+        margin-left: 0px;
+        width: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 4px;
+        height: 70px;
+    }
+
+    .Clapperboard-icon{
+        margin-left: 0px;
+        height: 22px;
+        width: 22px;
+        color: white;
+    }
+
+    .shorts {
+        font-size: small;
+        margin-left: 0px;
+    }
+
+    .top {
+        width: 80px;
+        height: auto;
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .you {
+        margin-left: 0px;
+        color: white;
+        display: flex;
+        align-items: center;
+        font-size: 17px;     
+        margin-top: 0px;
+        width: 80px;
+        height: 70px;
+        padding-left: 26px;
+        font-weight: normal;
+    }
+
+    .Symbol {
+        font-size: 14px;      
+    }
+
+    .history-icon,
+    .playlist-icon,
+    .watchlater-icon,
+    .thumbsup-icon,
+    .video-icon,
+    .download-icon,
+    .section-3,
+    .section-4,
+    .section-5,
+    .horizontal-line {
+        display: none;
+    }
+}
+
+@media (max-width: 786px) {
+
+    .SideBar {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .SideBar {
+        display: none !important;
+    }
+
+    .videos {
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+    }
+}

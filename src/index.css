@@ -1,0 +1,21 @@
+:root {
+    --bg: #fff;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(10, 8, 8);
+}
+
+#root {
+    background-color: rgb(14, 11, 11);
+}
+
+
+html,
+body,
+#root {
+    height: 100hv;
+    margin: 0;
+    /* overflow: hidden; */
+}

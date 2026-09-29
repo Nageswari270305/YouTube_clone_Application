@@ -1,0 +1,417 @@
+.header{
+    display: flex;
+    gap:30px;
+    /* margin-top: 20px; */
+    background-color: rgb(29, 27, 27);
+    position: fixed;
+    height: 120px;
+    width: 100%;
+}
+
+.header_subheader{
+ display: flex;
+ flex-direction: column;
+}
+
+.menu{
+  margin-left: 45px;
+    margin-top: 15px;
+}
+
+.search-box {
+  width: 500px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(56, 55, 55);
+  border-radius: 20px; 
+  margin-left: 450px;
+  margin-top: 10px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: black;
+}
+
+.searchbar::placeholder{
+  color: rgb(92, 89, 89);
+  font-weight: 600;
+  font-size: medium;
+}
+
+.searchbar {
+  flex: 1;
+  height: 90%;
+  border-color: black;
+  border: none;
+  border-radius: 20px;
+  border-right: none;
+  outline: none;
+  padding-left: 15px;
+  background: transparent;
+  width: 442px;
+}
+
+.search {
+  border: none;
+  background-color: rgb(56, 55, 55);
+  cursor: pointer;
+  color: white;
+  width: 80px;
+  height: 95%;
+  margin-right: 0px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.mic{
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(56, 55, 55);
+  color: white;
+   margin-top: 10px;
+width: 40px;
+height: 40px;
+}
+
+.plus{
+    border: none;
+    border-radius: 20px;
+    width: 140px;
+    margin-left: 312px;
+    background-color: rgb(56, 55, 55);
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    height: 50px;
+}
+
+.plus-icon{
+  margin-left: 20px;
+}
+.create{
+  width: 50px;
+  background-color: rgb(56, 55, 55);
+  border: none;
+}
+
+.create::placeholder{
+  color: white;
+  font-size: medium;
+  font-weight: bold;
+  margin-bottom: 100px;
+ text-align: center;
+}
+
+.plus-create{
+  display: flex;
+  gap:30px
+}
+
+.bell{
+  border: none;
+  border-radius: 20px;
+  color: white;
+  background-color: rgb(56, 55, 55);
+  background: transparent;
+  margin-top: 0px;
+  height: 75px;
+  width: 30px;
+  margin-left: 0px;
+
+}
+
+.SubHeader{
+    display: flex;
+    gap: 20px;
+    left: 316px;
+    margin-top: 80px;
+    height: 30px;
+    border-radius: 50px;
+    position:fixed ;
+    z-index: 10;
+
+}
+
+.User{
+  color: white;
+    margin-top: 15px;
+    height: 43px;
+    width: 42px;
+    margin-left: 0px;
+}
+
+.All{
+    border-radius: 10px;
+    width: 50px;
+    border: none;
+    color: white;
+    background-color:rgb(56, 55, 55);  
+    font-weight: bolder;
+}
+
+.Music{
+    border-radius: 10px;
+    width: 50px;
+    border: none;
+    color: white;
+    background-color:rgb(56, 55, 55); 
+    font-weight: bolder;
+}
+
+.Rowan-AtkinsonAll{
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color:rgb(56, 55, 55); 
+    font-weight: bolder;
+}
+
+.Mixes{
+    border-radius: 10px;
+    width: 50px;
+    border: none;
+    color: white;
+    background-color:rgb(56, 55, 55);  
+    font-weight: bolder;
+}
+
+.Tamil-Cinema{
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color:rgb(56, 55, 55);  
+    font-weight: bolder;
+}
+
+.Webseries{
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color:rgb(56, 55, 55);  
+    font-weight: bolder;
+}
+
+.Live{
+    border-radius: 10px;
+    width: 50px;
+    border: none;
+    color: white;
+    background-color:rgb(56, 55, 55);  
+    font-weight: bolder;
+
+}
+
+.Rhythms{
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color:rgb(56, 55, 55); 
+    font-weight: bolder;
+}
+
+.Presentations{
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color:rgb(56, 55, 55);  
+    font-weight: bolder;
+}
+
+.Recently-uploaded{
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color:rgb(56, 55, 55);  
+    font-weight: bolder;
+}
+
+.Watched{
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color:rgb(56, 55, 55);  
+    font-weight: bolder;
+}
+
+.you-icon{
+    color: red;
+    font-size: 40px;
+    margin-left: 6px;
+    margin-top: 8px;
+}
+
+.YouTube{
+  display: flex;
+  gap: 10px;
+  color: white;
+}
+
+.text-youtube{
+  font-size: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-top: 12px;
+}
+
+@media (max-width: 1669px){
+  
+     .search-box{
+    margin-left: auto;
+  }
+
+  .plus{
+    margin-left: 229px;
+  }
+
+    
+   
+    
+} 
+
+@media (max-width: 1397px){
+  
+     .search-box{
+    margin-left: auto;
+  }
+
+  .plus{
+    margin-left: 120px;
+  }
+
+    .SubHeader{
+      left: 120px;
+    }
+
+    .menu {
+    margin-left: 25px;
+   
+    }
+} 
+
+@media (max-width: 1250px){
+  
+     .search-box{
+    margin-left: auto;
+  }
+
+  .plus{
+    margin-left: auto;
+  }
+
+    .SubHeader{
+      left: 120px;
+    }
+
+    .menu {
+    margin-left: 25px;
+   
+    }
+} 
+
+@media (max-width: 1140px){
+  
+   .search-box{
+    margin-left: auto;
+    width: clamp(200px, 35vw, 500px);  }
+
+  .bell,
+  .User,
+  .plus{
+    margin-left: auto;
+  }
+ 
+    .SubHeader{
+      left: 120px;
+    }
+
+    .menu {
+    margin-left: 25px;
+   
+    }
+} 
+
+@media (max-width: 960px){
+  
+   .search-box{
+    margin-left: auto;
+    width: clamp(10px, 25vw, 300px);  }
+
+  .bell,
+  .User,
+  .plus{
+    margin-left: auto;
+  }
+ 
+    .SubHeader{
+      left: 120px;
+    }
+
+    .menu {
+    margin-left: 25px;
+   
+    }
+} 
+
+@media (max-width: 840px) {
+  .SubHeader{
+      left: 70px;
+    }
+
+     .search-box{
+      width: 80px;
+     }
+
+  .User{
+    margin-left: auto;
+  }
+
+}
+
+@media (max-width: 786px) {
+  .SubHeader{
+      left: 0px;
+    }
+}
+
+@media (max-width: 786px) {
+  .SubHeader{
+      left: 0px;
+    }
+
+     .menu {
+    margin-left: 3px;
+   
+    }
+}
+
+
+@media (max-width: 690px) {
+  .SubHeader{
+      left: 0px;
+    }
+
+    .mic{
+      display: none;
+    }
+
+     .menu {
+    margin-left: 3px;
+   
+    }
+}
+
+@media (max-width: 690px) {
+  .SubHeader{
+      left: 0px;
+    }
+
+    .bell{
+      display: none;
+    }
+
+     .menu {
+    margin-left: 3px;
+   
+    }
+}

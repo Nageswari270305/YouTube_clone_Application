@@ -1,0 +1,106 @@
+.SubHeader{
+    display: flex;
+    gap: 20px;
+    margin-left: 5px;
+    margin-top: 80px;
+    height: 30px;
+    border-radius: 50px;
+    position:fixed ;
+    z-index: 10;
+
+}
+
+
+.All{
+    border-radius: 10px;
+    width: 50px;
+    border: none;
+    color: white;
+    background-color:rgb(56, 55, 55);  
+    font-weight: bolder;
+}
+
+.Music{
+    border-radius: 10px;
+    width: 50px;
+    border: none;
+    color: white;
+    background-color:rgb(56, 55, 55); 
+    font-weight: bolder;
+}
+
+.Rowan-AtkinsonAll{
+    border-radius: 10px;
+    /* width: 100px; */
+    border: none;
+    color: white;
+    background-color:rgb(56, 55, 55); 
+    font-weight: bolder;
+}
+
+.Mixes{
+    border-radius: 10px;
+    width: 50px;
+    border: none;
+    color: white;
+    background-color:rgb(56, 55, 55);  
+    font-weight: bolder;
+}
+
+.Tamil-Cinema{
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color:rgb(56, 55, 55);  
+    font-weight: bolder;
+}
+
+.Webseries{
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color:rgb(56, 55, 55);  
+    font-weight: bolder;
+}
+
+.Live{
+    border-radius: 10px;
+    width: 50px;
+    border: none;
+    color: white;
+    background-color:rgb(56, 55, 55);  
+    font-weight: bolder;
+
+}
+
+.Rhythms{
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color:rgb(56, 55, 55); 
+    font-weight: bolder;
+}
+
+.Presentations{
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color:rgb(56, 55, 55);  
+    font-weight: bolder;
+}
+
+.Recently-uploaded{
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color:rgb(56, 55, 55);  
+    font-weight: bolder;
+}
+
+.Watched{
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color:rgb(56, 55, 55);  
+    font-weight: bolder;
+}

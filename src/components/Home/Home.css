@@ -1,0 +1,18 @@
+.sider {
+    display: flex;
+    align-items: flex-start;
+}
+
+.main-content {
+    flex: 1;
+    min-width: 0;
+}
+
+.videos{
+    margin-top: 20px;
+    color: white;
+}
+
+.subheader-wrap {
+    margin-bottom: 60px;  
+}
